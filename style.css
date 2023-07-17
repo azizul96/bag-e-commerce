@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato';
+    /* font-family: 'Dancing Script', cursive; */
+}
+.header{
+    background-color: rgb(147, 118, 224);
+    color: white;
+    
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    width: 50px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+    
+}
+.nav-container a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+}
+.pink{
+    color: rgb(232, 147, 207);
+}
+.btn-login{
+    background-color: rgb(232, 147, 207);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+.btn-login a{
+    color: black;
+}
+.btn-login i{
+    color: rgb(147, 118, 224);
+    font-size: 1rem;
+    margin-left: 5px;
+}
+/*  */
+.banner{
+    width: 80%;
+    background-color: #D3D3D3;
+    margin: 50px auto 0;
+    border-radius: 10px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-copy{
+    width: 50%;
+    text-align: center;
+}
+.banner-title{
+    font-size: 3rem;
+    background-image: linear-gradient(rgb(147, 118, 224), rgb(232, 147, 207));
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+.banner-tagline{
+    font-size: 2rem;
+    font-family: "Dancing Script", cursive;
+}
+.social-media{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.banner-btn{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(147, 118, 224);
+    border-image: initial;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.banner-image{
+    width: 50%;
+    padding: 10px;
+}
+.banner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
